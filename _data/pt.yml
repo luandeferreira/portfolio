@@ -1,0 +1,198 @@
+# Metadados e Navegação
+lang: "pt"
+locale: "pt_BR"
+site_title: "Luan Ferreira | Engenheiro de Software & Pesquisador"
+meta_description: "Portfólio de Luan Ferreira - Estudante de Engenharia de Software, Pesquisador em Deep Learning e Desenvolvedor Backend."
+
+nav:
+  about: "Sobre"
+  skills: "Habilidades"
+  experience: "Experiência"
+  education: "Formação"
+  contact: "Contato"
+  current_lang: "PT"
+  switch_lang_code: "EN"
+  switch_lang_url: "/en/"
+
+# Cabeçalho / Hero
+header:
+  name: "Luan Ferreira"
+  photo: "assets/images/image_5f7d26.png"
+  status_badge: "Disponível para novos desafios e colaborações"
+  subtitles:
+    - "Estudante de Engenharia de Software"
+    - "Pesquisador em Deep Learning"
+    - "Estagiário de Customer Success na @Icaro Tech"
+  full_subtitle: "Estudante de Engenharia de Software | Pesquisador em Deep Learning | Estagiário de Customer Success na @Icaro Tech"
+  cta_contact: "Entrar em Contato"
+  cta_about: "Conhecer Trajetória"
+
+# Seção Sobre Mim
+about:
+  title: "Sobre Mim"
+  section_tag: "Minha Jornada"
+  quote:
+    text: "É preciso mais do que inteligência para agir de forma inteligente."
+    author: "Fiódor Dostoiévski"
+  paragraphs:
+    - "Minha trajetória na tecnologia é guiada pela transição fluida entre arquitetura de software, visão de negócios e o ecossistema open-source. Acredito que o verdadeiro impacto da engenharia não está apenas na elegância do código, mas na capacidade de traduzir objetivos estratégicos em sistemas escaláveis, robustos e centrados no ser humano."
+    - "Com base sólida em desenvolvimento backend no ecossistema Java (Spring Boot, Spring Cloud, Maven) e imersão ativa em pesquisa de Inteligência Artificial e Deep Learning, busco continuamente conectar a inovação científica à solução de problemas do mundo real. Na interseção entre tecnologia e produto, atuo com foco em valor contínuo, boas práticas arquiteturais e colaboração em comunidade."
+
+# Habilidades & Tecnologias
+skills:
+  title: "Habilidades & Tecnologias"
+  section_tag: "Stack & Competências"
+  groups:
+    - name: "Destaques Backend & Arquitetura"
+      items:
+        - name: "Spring Boot"
+          icon: "fa-solid fa-leaf"
+          level: "Avançado"
+        - name: "Spring Cloud"
+          icon: "fa-solid fa-cloud"
+          level: "Intermediário"
+        - name: "Apache Maven"
+          icon: "fa-solid fa-feather-pointed"
+          level: "Avançado"
+        - name: "Java"
+          icon: "fa-brands fa-java"
+          level: "Avançado"
+        - name: "Microsserviços & REST APIs"
+          icon: "fa-solid fa-network-wired"
+          level: "Avançado"
+        - name: "Docker"
+          icon: "fa-brands fa-docker"
+          level: "Intermediário"
+    - name: "Inteligência Artificial & Pesquisa"
+      items:
+        - name: "Deep Learning"
+          icon: "fa-solid fa-brain"
+          level: "Pesquisa / Especialização"
+        - name: "Python"
+          icon: "fa-brands fa-python"
+          level: "Avançado"
+        - name: "Redes Neurais & PyTorch"
+          icon: "fa-solid fa-diagram-project"
+          level: "Pesquisa"
+        - name: "Visão Computacional"
+          icon: "fa-solid fa-eye"
+          level: "Pesquisa"
+    - name: "Idiomas"
+      items:
+        - name: "Português"
+          icon: "fa-solid fa-earth-americas"
+          level: "Nativo"
+        - name: "Inglês"
+          icon: "fa-solid fa-language"
+          level: "Avançado / Proficiente"
+
+# Experiência Profissional (Timeline)
+experience:
+  title: "Experiência Profissional"
+  section_tag: "Carreira"
+  timeline:
+    - company: "Icaro Tech"
+      role: "Customer Success Intern"
+      period: "2024 - Presente"
+      location: "Remoto / Híbrido"
+      description: "Atuação no acompanhamento e sucesso de clientes enterprise, estabelecendo a ponte entre demandas estratégicas de negócio e soluções técnicas. Análise de incidentes, monitoramento de SLAs e colaboração com times de engenharia para otimização de produtos e satisfação dos usuários."
+      tags:
+        - "Customer Success"
+        - "Enterprise SaaS"
+        - "Gestão de Incidentes"
+        - "Comunicação Estratégica"
+    - company: "Universidade Católica de Brasília (UCB)"
+      role: "Pesquisador em Deep Learning"
+      period: "2023 - 2024"
+      location: "Brasília, DF"
+      description: "Pesquisa acadêmica e desenvolvimento de modelos neurais profundos aplicados à resolução de problemas complexos. Experimentação com frameworks de ponta em Python, refinamento de arquiteturas e publicação/documentação de resultados científicos."
+      tags:
+        - "Deep Learning"
+        - "Python"
+        - "Redes Neurais Artificiais"
+        - "Pesquisa Científica"
+    - company: "TRF1 - Tribunal Regional Federal da 1ª Região"
+      role: "Software Engineer Intern"
+      period: "2023"
+      location: "Brasília, DF"
+      description: "Engenharia de software voltada a sistemas de larga escala do judiciário federal. Desenvolvimento de componentes backend em Java, manutenção de microsserviços, integração de bancos de dados relacionais e implementação de boas práticas de versionamento com Git."
+      tags:
+        - "Java"
+        - "Spring Framework"
+        - "SQL"
+        - "Sistemas Judiciais"
+        - "Git"
+
+# Formação & Certificações
+education:
+  title: "Formação & Certificações"
+  section_tag: "Educação Continuada"
+  academic_title: "Formação Acadêmica"
+  degrees:
+    - institution: "Universidade Católica de Brasília (UCB)"
+      degree: "Bacharelado em Engenharia de Software"
+      period: "2022 - 2026 (Previsão)"
+      description: "Foco em engenharia de requisitos, arquitetura de software escalável, inteligência artificial, computação em nuvem e métodos ágeis."
+    - institution: "Instituto Federal do Norte de Minas Gerais (IFNMG)"
+      degree: "Formação Técnica / Integrada"
+      period: "Concluído"
+      description: "Fundamentos sólidos em lógica de programação, estruturas de dados, redes e ciência da computação."
+  certifications_title: "Certificações & Cursos"
+  certifications:
+    - title: "AWS Certified Cloud Practitioner"
+      issuer: "Amazon Web Services (AWS)"
+      status: "Em preparação"
+      badge: "In Progress"
+      icon: "fa-brands fa-aws"
+      description: "Conceitos de nuvem global, segurança, conformidade e arquitetura na AWS."
+    - title: "Santander Bootcamp / Tech"
+      issuer: "Banco Santander & DIO"
+      status: "Concluído"
+      badge: "Concluído"
+      icon: "fa-solid fa-graduation-cap"
+      description: "Imersão prática em ecossistema Java, Spring Boot, microsserviços e Clean Architecture."
+    - title: "Apache Maven & Gestão de Dependências"
+      issuer: "Especialização Backend"
+      status: "Concluído"
+      badge: "Concluído"
+      icon: "fa-solid fa-feather-pointed"
+      description: "Ciclo de vida de builds corporativos, plugins customizados e automação de empacotamento."
+
+# Seção de Contato
+contact:
+  title: "Vamos Conversar?"
+  subtitle: "Sinta-se à vontade para me enviar uma mensagem sobre projetos, oportunidades de carreira ou apenas trocar uma ideia sobre tecnologia!"
+  section_tag: "Fale Comigo"
+  form:
+    name_label: "Nome Completo"
+    name_placeholder: "Ex: João Silva"
+    email_label: "Seu E-mail"
+    email_placeholder: "Ex: joao@dominio.com"
+    message_label: "Mensagem"
+    message_placeholder: "Escreva sua mensagem aqui... Fale sobre sua ideia ou projeto."
+    submit_button: "Enviar Mensagem"
+    sending_button: "Enviando mensagem..."
+    status_success: "Sua mensagem foi enviada com sucesso! Responderei em breve."
+    status_error: "Não foi possível enviar a mensagem no momento. Por favor, tente novamente ou conecte-se via redes sociais."
+    validation_error: "Por favor, preencha todos os campos antes de enviar."
+
+# Redes Sociais & Rodapé
+social:
+  title: "Conecte-se comigo"
+  links:
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/luandeferreira/"
+      icon: "fa-brands fa-linkedin-in"
+      user: "@luandeferreira"
+    - name: "GitHub"
+      url: "https://github.com/luandeferreira"
+      icon: "fa-brands fa-github"
+      user: "@luandeferreira"
+    - name: "Instagram"
+      url: "https://instagram.com/luandeferreira"
+      icon: "fa-brands fa-instagram"
+      user: "@luandeferreira"
+
+footer:
+  rights: "Todos os direitos reservados."
+  tagline: "Construído com Jekyll, SCSS e inspiração Deep Space."

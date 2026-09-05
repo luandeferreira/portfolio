@@ -1,0 +1,42 @@
+# Site Settings
+title: "Luan Ferreira | Portfolio"
+description: "Estudante de Engenharia de Software, Pesquisador em Deep Learning e Desenvolvedor Backend."
+author: "Luan Ferreira"
+email: "luandeferreira@example.com"
+url: "https://luandeferreira.github.io"
+baseurl: ""
+
+# Build Settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Sass / SCSS Configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# EmailJS Defaults (Substitua pelas suas chaves reais do EmailJS)
+emailjs:
+  public_key: "YOUR_PUBLIC_KEY"
+  service_id: "YOUR_SERVICE_ID"
+  template_id: "YOUR_TEMPLATE_ID"
+
+# Social Links
+social:
+  github: "https://github.com/luandeferreira"
+  linkedin: "https://www.linkedin.com/in/luandeferreira/"
+  instagram: "https://instagram.com/luandeferreira"
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - README.md

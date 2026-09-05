@@ -1,0 +1,236 @@
+<!-- HERO / CABEÇALHO -->
+<section id="hero" class="hero-section">
+  <div class="avatar-wrapper">
+    <div class="avatar-ring"></div>
+    <img src="{{ d.header.photo | relative_url }}" 
+         alt="{{ d.header.name }}" 
+         class="avatar-img"
+         onerror="this.onerror=null;this.src='https://github.com/luandeferreira.png';">
+  </div>
+
+  <div class="status-badge">
+    <span class="status-indicator"></span>
+    <span>{{ d.header.status_badge }}</span>
+  </div>
+
+  <h1 class="hero-name">{{ d.header.name }}</h1>
+
+  <p class="hero-subtitles">
+    {{ d.header.full_subtitle }}
+  </p>
+
+  <div class="hero-cta">
+    <a href="#contact" class="btn btn-primary">
+      <i class="fa-solid fa-paper-plane"></i>
+      {{ d.header.cta_contact }}
+    </a>
+    <a href="#about" class="btn btn-glass">
+      <i class="fa-solid fa-compass"></i>
+      {{ d.header.cta_about }}
+    </a>
+  </div>
+</section>
+
+<!-- SOBRE MIM -->
+<section id="about">
+  <span class="section-tag">
+    <i class="fa-solid fa-user-astronaut"></i> {{ d.about.section_tag }}
+  </span>
+  <h2 class="section-title">{{ d.about.title }}</h2>
+
+  <div class="glass-card">
+    <div class="about-quote-box">
+      <div class="quote-icon">
+        <i class="fa-solid fa-quote-left"></i>
+      </div>
+      <p class="quote-text">"{{ d.about.quote.text }}"</p>
+      <span class="quote-author">— {{ d.about.quote.author }}</span>
+    </div>
+
+    <div class="about-text">
+      {% for p in d.about.paragraphs %}
+        <p>{{ p }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- HABILIDADES & TECNOLOGIAS (TAGS) -->
+<section id="skills">
+  <span class="section-tag">
+    <i class="fa-solid fa-microchip"></i> {{ d.skills.section_tag }}
+  </span>
+  <h2 class="section-title">{{ d.skills.title }}</h2>
+
+  <div class="glass-card">
+    <div class="skills-container">
+      {% for group in d.skills.groups %}
+        <div class="skills-group">
+          <h3 class="skills-group-title">{{ group.name }}</h3>
+          <div class="skills-tags-grid">
+            {% for item in group.items %}
+              {% assign is_highlight = false %}
+              {% if item.name == "Spring Boot" or item.name == "Spring Cloud" or item.name == "Apache Maven" %}
+                {% assign is_highlight = true %}
+              {% endif %}
+              <div class="skill-tag {% if is_highlight %}tag-highlight{% endif %}">
+                <i class="{{ item.icon }}"></i>
+                <span>{{ item.name }}</span>
+                <span class="tag-level">{{ item.level }}</span>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIÊNCIA PROFISSIONAL (TIMELINE) -->
+<section id="experience">
+  <span class="section-tag">
+    <i class="fa-solid fa-timeline"></i> {{ d.experience.section_tag }}
+  </span>
+  <h2 class="section-title">{{ d.experience.title }}</h2>
+
+  <div class="timeline">
+    {% for job in d.experience.timeline %}
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="glass-card timeline-card">
+          <div class="timeline-header">
+            <h3 class="timeline-company">{{ job.company }}</h3>
+            <span class="timeline-role">{{ job.role }}</span>
+            <div class="timeline-meta">
+              <span><i class="fa-regular fa-calendar"></i> {{ job.period }}</span>
+              <span><i class="fa-solid fa-location-dot"></i> {{ job.location }}</span>
+            </div>
+          </div>
+          <p class="timeline-desc">{{ job.description }}</p>
+          <div class="timeline-tags">
+            {% for tag in job.tags %}
+              <span class="mini-tag">#{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- FORMAÇÃO & CERTIFICAÇÕES -->
+<section id="education">
+  <span class="section-tag">
+    <i class="fa-solid fa-graduation-cap"></i> {{ d.education.section_tag }}
+  </span>
+  <h2 class="section-title">{{ d.education.title }}</h2>
+
+  <div class="edu-grid">
+    {% for deg in d.education.degrees %}
+      <div class="glass-card edu-card">
+        <div>
+          <div class="edu-header">
+            <h3 class="edu-inst">{{ deg.institution }}</h3>
+            <span class="edu-period">{{ deg.period }}</span>
+          </div>
+          <h4 class="edu-degree">{{ deg.degree }}</h4>
+          <p class="edu-desc">{{ deg.description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="cert-grid">
+    {% for cert in d.education.certifications %}
+      <div class="glass-card cert-card">
+        <div class="cert-icon">
+          <i class="{{ cert.icon }}"></i>
+        </div>
+        <div class="cert-content">
+          <h4 class="cert-title">{{ cert.title }}</h4>
+          <p class="cert-issuer">{{ cert.issuer }}</p>
+          <p class="edu-desc" style="margin-top: 0.25rem;">{{ cert.description }}</p>
+        </div>
+        <span class="cert-badge">{{ cert.status }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- CONTATO (GLASSMORPHISM & EMAILJS) -->
+<section id="contact" class="contact-section">
+  <span class="section-tag">
+    <i class="fa-solid fa-satellite-dish"></i> {{ d.contact.section_tag }}
+  </span>
+  <h2 class="section-title">{{ d.contact.title }}</h2>
+
+  <div class="glass-card contact-card">
+    <p class="contact-intro">{{ d.contact.subtitle }}</p>
+
+    <!-- Formulário Integrado com EmailJS -->
+    <form id="contact-form" 
+          class="contact-form"
+          data-service-id="{{ site.emailjs.service_id | default: 'YOUR_SERVICE_ID' }}"
+          data-template-id="{{ site.emailjs.template_id | default: 'YOUR_TEMPLATE_ID' }}"
+          data-success-msg="{{ d.contact.form.status_success }}"
+          data-error-msg="{{ d.contact.form.status_error }}"
+          data-validation-msg="{{ d.contact.form.validation_error }}"
+          data-sending-msg="{{ d.contact.form.sending_button }}">
+      
+      <!-- Feedback Visual de Sucesso ou Erro -->
+      <div id="contact-status" class="form-status" role="alert"></div>
+
+      <div class="form-group">
+        <label for="from_name">
+          <i class="fa-regular fa-user"></i> {{ d.contact.form.name_label }}
+        </label>
+        <input type="text" 
+               id="from_name" 
+               name="from_name" 
+               placeholder="{{ d.contact.form.name_placeholder }}" 
+               required>
+      </div>
+
+      <div class="form-group">
+        <label for="reply_to">
+          <i class="fa-regular fa-envelope"></i> {{ d.contact.form.email_label }}
+        </label>
+        <input type="email" 
+               id="reply_to" 
+               name="reply_to" 
+               placeholder="{{ d.contact.form.email_placeholder }}" 
+               required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">
+          <i class="fa-regular fa-comment-dots"></i> {{ d.contact.form.message_label }}
+        </label>
+        <textarea id="message" 
+                  name="message" 
+                  placeholder="{{ d.contact.form.message_placeholder }}" 
+                  required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-submit">
+        <i class="fa-solid fa-paper-plane"></i> {{ d.contact.form.submit_button }}
+      </button>
+    </form>
+
+    <!-- REDES SOCIAIS CENTRALIZADAS -->
+    <div class="social-section">
+      <h3 class="social-title">{{ d.social.title }}</h3>
+      <div class="social-icons-container">
+        {% for s in d.social.links %}
+          <a href="{{ s.url }}" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="social-icon-btn" 
+             title="{{ s.name }} ({{ s.user }})">
+            <i class="{{ s.icon }}"></i>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
