@@ -20,12 +20,9 @@ sass:
 
 # EmailJS Defaults (Substitua pelas suas chaves reais do EmailJS)
 emailjs:
-  public_key: "srdfSJzwUoAQhewJ8"
-  service_id: "service_eny0m5b"
-  template_id: "template_sfjdmnk"
-  # public_key: "YOUR_PUBLIC_KEY"
-  # service_id: "YOUR_SERVICE_ID"
-  # template_id: "YOUR_TEMPLATE_ID"
+  public_key: "YOUR_PUBLIC_KEY"
+  service_id: "YOUR_SERVICE_ID"
+  template_id: "YOUR_TEMPLATE_ID"
 
 # Social Links
 social:
