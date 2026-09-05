@@ -1,8 +1,8 @@
 # Metadata and Navigation
 lang: "en"
 locale: "en_US"
-site_title: "Luan Ferreira | Software Engineer & Researcher"
-meta_description: "Portfolio of Luan Ferreira - Software Engineering Student, Deep Learning Researcher and Backend Developer."
+site_title: "Luan Ferreira"
+meta_description: "Portfolio of Luan Ferreira - Software Engineering student, intern, and researcher focusing on microservices, Agentic Development, and healthcare."
 
 nav:
   about: "About"
@@ -18,12 +18,11 @@ nav:
 header:
   name: "Luan Ferreira"
   photo: "assets/images/image_5f7d26.png"
-  status_badge: "Available for new challenges and collaborations"
   subtitles:
-    - "Software Engineer Student"
+    - "Software Engineering Student"
     - "Deep Learning Researcher"
-    - "Customer Success intern at @Icaro Tech"
-  full_subtitle: "Software Engineer Student | Deep Learning Researcher | Customer Success intern at @Icaro Tech"
+    - "Customer Success Intern at Icaro Tech"
+  full_subtitle: "Software Engineering Student | Deep Learning Researcher | Customer Success Intern at Icaro Tech"
   cta_contact: "Get in Touch"
   cta_about: "Explore Journey"
 
@@ -35,8 +34,8 @@ about:
     text: "It takes more than intelligence to act intelligently."
     author: "Fyodor Dostoevsky"
   paragraphs:
-    - "My journey in technology is driven by a seamless transition between software architecture, business vision, and the open-source ecosystem. I believe that engineering's genuine impact lies not only in elegant code, but in the capability to turn strategic objectives into scalable, resilient, and human-centered systems."
-    - "With a solid background in backend development within the Java ecosystem (Spring Boot, Spring Cloud, Maven) and active research in Artificial Intelligence and Deep Learning, I continuously aim to bridge scientific breakthroughs with real-world solutions. Operating at the intersection of technology and business, I emphasize sustainable value, architectural best practices, and community collaboration."
+    - "I am a Software Engineering student at the Universidade Católica de Brasília, currently working as an intern and researcher. My primary focus is building a strong, consistent software engineering foundation through hands-on practice with microservices and active collaboration with product and technology teams."
+    - "I have a strong interest in applied research, specifically exploring Agentic Development and artificial intelligence applications in healthcare. I aim to grow continuously and humbly, combining theoretical knowledge with practical solutions, clean code, and disciplined teamwork."
 
 # Skills & Technologies
 skills:
@@ -84,79 +83,57 @@ skills:
           level: "Native"
         - name: "English"
           icon: "fa-solid fa-language"
-          level: "Advanced / Proficient"
+          level: "Intermediate"
+        - name: "Spanish"
+          icon: "fa-solid fa-language"
+          level: "Intermediate"
 
 # Professional Experience (Timeline)
 experience:
   title: "Work Experience"
   section_tag: "Career"
   timeline:
-    - company: "Icaro Tech"
-      role: "Customer Success Intern"
-      period: "2024 - Present"
-      location: "Remote / Hybrid"
-      description: "Driving success for enterprise accounts, bridging strategic business needs and technical capabilities. Conducting incident reviews, monitoring SLAs, and partnering with software engineering teams to optimize products and elevate customer satisfaction."
-      tags:
-        - "Customer Success"
-        - "Enterprise SaaS"
-        - "Incident Management"
-        - "Strategic Communication"
-    - company: "Universidade Católica de Brasília (UCB)"
-      role: "Deep Learning Researcher"
-      period: "2023 - 2024"
-      location: "Brasília, Brazil"
-      description: "Academic research and development of deep neural models geared towards complex challenges. Experimenting with state-of-the-art Python frameworks, fine-tuning architectures, and documenting scientific findings."
+    - company: "Universidade Católica de Brasília"
+      role: "Undergraduate Research Fellow | Deep Learning Researcher"
+      period: "May 2026 - Present · Part-time"
+      location: "Hybrid | Brasília, Federal District, Brazil"
+      description: "Academic research and development of deep neural models applied to real-world problems. Experimenting with Python architectures and documenting scientific findings."
       tags:
         - "Deep Learning"
         - "Python"
-        - "Artificial Neural Networks"
         - "Scientific Research"
-    - company: "TRF1 - Federal Regional Court of the 1st Region"
-      role: "Software Engineer Intern"
-      period: "2023"
-      location: "Brasília, Brazil"
-      description: "Software engineering for large-scale federal judicial platforms. Developing backend components in Java, maintaining microservices, integrating relational databases, and adhering to Git versioning standards."
+    - company: "Icaro Tech"
+      role: "Customer Success (Internship)"
+      period: "Jan 2026 - Present"
+      location: "Remote"
+      description: "Supporting enterprise accounts and bridging business requirements with technical teams, analyzing demands and supporting process improvement."
+      tags:
+        - "Customer Success"
+        - "Enterprise SaaS"
+        - "Communication"
+    - company: "Tribunal Regional Federal da 1ª Região"
+      role: "Software Engineer (Internship)"
+      period: "Apr 2025 - Nov 2025"
+      location: "On-site | Brasília, Federal District, Brazil"
+      description: "Backend development and maintenance of microservices in Java, relational database integration, and Git version control workflows for federal judicial platforms."
       tags:
         - "Java"
-        - "Spring Framework"
-        - "SQL"
-        - "Judicial Systems"
+        - "Microservices"
         - "Git"
 
-# Education & Certifications
+# Academic Background
 education:
-  title: "Education & Certifications"
-  section_tag: "Lifelong Learning"
-  academic_title: "Academic Background"
+  title: "Academic Background"
+  section_tag: "Education"
   degrees:
-    - institution: "Universidade Católica de Brasília (UCB)"
-      degree: "B.S. in Software Engineering"
-      period: "2022 - 2026 (Expected)"
-      description: "Focus on requirements engineering, scalable software architectures, artificial intelligence, cloud computing, and agile methodologies."
-    - institution: "Instituto Federal do Norte de Minas Gerais (IFNMG)"
-      degree: "Technical / Academic Degree"
-      period: "Completed"
-      description: "Strong foundation in programming algorithms, data structures, computer networks, and computing fundamentals."
-  certifications_title: "Certifications & Specializations"
-  certifications:
-    - title: "AWS Certified Cloud Practitioner"
-      issuer: "Amazon Web Services (AWS)"
-      status: "In preparation"
-      badge: "In Progress"
-      icon: "fa-brands fa-aws"
-      description: "Global cloud concepts, security, compliance, and foundational AWS architecture."
-    - title: "Santander Bootcamp / Tech"
-      issuer: "Banco Santander & DIO"
-      status: "Completed"
-      badge: "Completed"
-      icon: "fa-solid fa-graduation-cap"
-      description: "Intensive training in Java ecosystem, Spring Boot, microservices, and Clean Architecture."
-    - title: "Apache Maven & Build Management"
-      issuer: "Backend Specialization"
-      status: "Completed"
-      badge: "Completed"
-      icon: "fa-solid fa-feather-pointed"
-      description: "Enterprise build lifecycles, custom plugins, and packaging automation."
+    - institution: "Universidade Católica de Brasília"
+      degree: "Bachelor's Degree, Software Engineering"
+      period: "Aug 2023 – Jun 2027"
+      description: "Skills: HTML, Git, and more."
+    - institution: "Instituto Federal de Educação, Ciência e Tecnologia do Norte de Minas Gerais (IFNMG)"
+      degree: "Technical High School Diploma, Internet Informatics"
+      period: "Feb 2019 – Apr 2023"
+      description: "Technical curriculum focused on web development, programming logic, and computer networking."
 
 # Contact Section
 contact:

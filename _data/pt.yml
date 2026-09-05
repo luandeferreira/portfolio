@@ -1,8 +1,8 @@
 # Metadados e Navegação
 lang: "pt"
 locale: "pt_BR"
-site_title: "Luan Ferreira | Engenheiro de Software & Pesquisador"
-meta_description: "Portfólio de Luan Ferreira - Estudante de Engenharia de Software, Pesquisador em Deep Learning e Desenvolvedor Backend."
+site_title: "Luan Ferreira"
+meta_description: "Portfólio de Luan Ferreira - Estudante de Engenharia de Software, estagiário e pesquisador com foco em microsserviços, Agentic Development e saúde."
 
 nav:
   about: "Sobre"
@@ -18,12 +18,11 @@ nav:
 header:
   name: "Luan Ferreira"
   photo: "assets/images/image_5f7d26.png"
-  status_badge: "Disponível para novos desafios e colaborações"
   subtitles:
     - "Estudante de Engenharia de Software"
     - "Pesquisador em Deep Learning"
-    - "Estagiário de Customer Success na @Icaro Tech"
-  full_subtitle: "Estudante de Engenharia de Software | Pesquisador em Deep Learning | Estagiário de Customer Success na @Icaro Tech"
+    - "Estagiário na Icaro Tech"
+  full_subtitle: "Estudante de Engenharia de Software | Pesquisador em Deep Learning | Estagiário na Icaro Tech"
   cta_contact: "Entrar em Contato"
   cta_about: "Conhecer Trajetória"
 
@@ -35,8 +34,8 @@ about:
     text: "É preciso mais do que inteligência para agir de forma inteligente."
     author: "Fiódor Dostoiévski"
   paragraphs:
-    - "Minha trajetória na tecnologia é guiada pela transição fluida entre arquitetura de software, visão de negócios e o ecossistema open-source. Acredito que o verdadeiro impacto da engenharia não está apenas na elegância do código, mas na capacidade de traduzir objetivos estratégicos em sistemas escaláveis, robustos e centrados no ser humano."
-    - "Com base sólida em desenvolvimento backend no ecossistema Java (Spring Boot, Spring Cloud, Maven) e imersão ativa em pesquisa de Inteligência Artificial e Deep Learning, busco continuamente conectar a inovação científica à solução de problemas do mundo real. Na interseção entre tecnologia e produto, atuo com foco em valor contínuo, boas práticas arquiteturais e colaboração em comunidade."
+    - "Sou estudante de Engenharia de Software na Universidade Católica de Brasília e atuo no mercado como estagiário e pesquisador. Meu foco diário está em construir uma base consistente de engenharia de software, aprendendo na prática através do desenvolvimento de microsserviços e da vivência com equipes de produto e tecnologia."
+    - "Tenho grande interesse em pesquisa aplicada, explorando áreas como Agentic Development e o uso de inteligência artificial aplicada à saúde. Busco evoluir continuamente de forma humilde, combinando estudos teóricos com soluções práticas, código limpo e vontade constante de colaborar."
 
 # Habilidades & Tecnologias
 skills:
@@ -84,79 +83,57 @@ skills:
           level: "Nativo"
         - name: "Inglês"
           icon: "fa-solid fa-language"
-          level: "Avançado / Proficiente"
+          level: "Intermediário"
+        - name: "Espanhol"
+          icon: "fa-solid fa-language"
+          level: "Intermediário"
 
 # Experiência Profissional (Timeline)
 experience:
   title: "Experiência Profissional"
   section_tag: "Carreira"
   timeline:
-    - company: "Icaro Tech"
-      role: "Customer Success Intern"
-      period: "2024 - Presente"
-      location: "Remoto / Híbrido"
-      description: "Atuação no acompanhamento e sucesso de clientes enterprise, estabelecendo a ponte entre demandas estratégicas de negócio e soluções técnicas. Análise de incidentes, monitoramento de SLAs e colaboração com times de engenharia para otimização de produtos e satisfação dos usuários."
-      tags:
-        - "Customer Success"
-        - "Enterprise SaaS"
-        - "Gestão de Incidentes"
-        - "Comunicação Estratégica"
-    - company: "Universidade Católica de Brasília (UCB)"
-      role: "Pesquisador em Deep Learning"
-      period: "2023 - 2024"
-      location: "Brasília, DF"
-      description: "Pesquisa acadêmica e desenvolvimento de modelos neurais profundos aplicados à resolução de problemas complexos. Experimentação com frameworks de ponta em Python, refinamento de arquiteturas e publicação/documentação de resultados científicos."
+    - company: "Universidade Católica de Brasília"
+      role: "Undergraduate Research Fellow | Deep Learning Researcher"
+      period: "Mai de 2026 - Presente · Meio período"
+      location: "Híbrido | Brasília, Distrito Federal, Brasil"
+      description: "Pesquisa acadêmica e desenvolvimento de modelos neurais profundos aplicados a problemas reais. Experimentação com frameworks em Python e documentação de resultados científicos."
       tags:
         - "Deep Learning"
         - "Python"
-        - "Redes Neurais Artificiais"
         - "Pesquisa Científica"
-    - company: "TRF1 - Tribunal Regional Federal da 1ª Região"
-      role: "Software Engineer Intern"
-      period: "2023"
-      location: "Brasília, DF"
-      description: "Engenharia de software voltada a sistemas de larga escala do judiciário federal. Desenvolvimento de componentes backend em Java, manutenção de microsserviços, integração de bancos de dados relacionais e implementação de boas práticas de versionamento com Git."
+    - company: "Icaro Tech"
+      role: "Customer Success (Estágio)"
+      period: "Jan de 2026 - Presente"
+      location: "Remoto"
+      description: "Atuação no acompanhamento de clientes enterprise, conectando necessidades de negócio com áreas técnicas. Análise de demandas e colaboração com equipes multidisciplinares."
+      tags:
+        - "Customer Success"
+        - "Enterprise SaaS"
+        - "Comunicação"
+    - company: "Tribunal Regional Federal da 1ª Região"
+      role: "Software Engineer (Estágio)"
+      period: "Abr de 2025 - Nov de 2025"
+      location: "No local | Brasília, Distrito Federal, Brasil"
+      description: "Desenvolvimento e manutenção de microsserviços em Java, integração com bancos de dados relacionais e aplicação de boas práticas de versionamento com Git em sistemas judiciais."
       tags:
         - "Java"
-        - "Spring Framework"
-        - "SQL"
-        - "Sistemas Judiciais"
+        - "Microsserviços"
         - "Git"
 
-# Formação & Certificações
+# Formação Acadêmica
 education:
-  title: "Formação & Certificações"
-  section_tag: "Educação Continuada"
-  academic_title: "Formação Acadêmica"
+  title: "Formação Acadêmica"
+  section_tag: "Educação"
   degrees:
-    - institution: "Universidade Católica de Brasília (UCB)"
-      degree: "Bacharelado em Engenharia de Software"
-      period: "2022 - 2026 (Previsão)"
-      description: "Foco em engenharia de requisitos, arquitetura de software escalável, inteligência artificial, computação em nuvem e métodos ágeis."
-    - institution: "Instituto Federal do Norte de Minas Gerais (IFNMG)"
-      degree: "Formação Técnica / Integrada"
-      period: "Concluído"
-      description: "Fundamentos sólidos em lógica de programação, estruturas de dados, redes e ciência da computação."
-  certifications_title: "Certificações & Cursos"
-  certifications:
-    - title: "AWS Certified Cloud Practitioner"
-      issuer: "Amazon Web Services (AWS)"
-      status: "Em preparação"
-      badge: "In Progress"
-      icon: "fa-brands fa-aws"
-      description: "Conceitos de nuvem global, segurança, conformidade e arquitetura na AWS."
-    - title: "Santander Bootcamp / Tech"
-      issuer: "Banco Santander & DIO"
-      status: "Concluído"
-      badge: "Concluído"
-      icon: "fa-solid fa-graduation-cap"
-      description: "Imersão prática em ecossistema Java, Spring Boot, microsserviços e Clean Architecture."
-    - title: "Apache Maven & Gestão de Dependências"
-      issuer: "Especialização Backend"
-      status: "Concluído"
-      badge: "Concluído"
-      icon: "fa-solid fa-feather-pointed"
-      description: "Ciclo de vida de builds corporativos, plugins customizados e automação de empacotamento."
+    - institution: "Universidade Católica de Brasília"
+      degree: "Bacharelado, Engenharia de Software"
+      period: "Ago de 2023 – Jun de 2027"
+      description: "Competências: HTML, Git e mais."
+    - institution: "Instituto Federal de Educação, Ciência e Tecnologia do Norte de Minas Gerais (IFNMG)"
+      degree: "Curso Técnico Integrado ao Ensino Médio, Informática para Internet"
+      period: "Fev de 2019 – Abr de 2023"
+      description: "Fundamentos em desenvolvimento web, lógica de programação e redes de computadores."
 
 # Seção de Contato
 contact:

@@ -86,7 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .catch((error) => {
         console.error('EmailJS Error:', error);
-        showStatus('error', messages.error);
+        const errorDetail = (error && (error.text || error.message)) ? ` (${error.text || error.message})` : '';
+        showStatus('error', `${messages.error}${errorDetail}`);
       })
       .finally(() => {
         if (submitButton) {

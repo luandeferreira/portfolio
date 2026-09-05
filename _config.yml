@@ -1,6 +1,6 @@
 # Site Settings
-title: "Luan Ferreira | Portfolio"
-description: "Estudante de Engenharia de Software, Pesquisador em Deep Learning e Desenvolvedor Backend."
+title: "Luan Ferreira"
+description: "Estudante de Engenharia de Software, estagiário e pesquisador com foco em microsserviços, Agentic Development e saúde."
 author: "Luan Ferreira"
 email: "luandeferreira@example.com"
 url: "https://luandeferreira.github.io"
@@ -20,9 +20,12 @@ sass:
 
 # EmailJS Defaults (Substitua pelas suas chaves reais do EmailJS)
 emailjs:
-  public_key: "YOUR_PUBLIC_KEY"
-  service_id: "YOUR_SERVICE_ID"
-  template_id: "YOUR_TEMPLATE_ID"
+  public_key: "srdfSJzwUoAQhewJ8"
+  service_id: "service_eny0m5b"
+  template_id: "template_sfjdmnk"
+  # public_key: "YOUR_PUBLIC_KEY"
+  # service_id: "YOUR_SERVICE_ID"
+  # template_id: "YOUR_TEMPLATE_ID"
 
 # Social Links
 social:
